@@ -1135,6 +1135,9 @@ p {
 .seo_margin {
     margin-bottom: 15px
 }
+.seo_margin h2 {
+    font-weight: 700;
+}
 
 .text-center p,
 q {
