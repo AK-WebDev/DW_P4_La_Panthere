@@ -1125,7 +1125,11 @@ p {
 .social {
     display        : flex;
     justify-content: center;
-    gap            : 10px
+    gap            : 10px;
+    transition      : transform 200ms
+}
+.social:hover {
+    transform: scale(1.05)
 }
 
 .seo_margin {
@@ -1148,7 +1152,8 @@ q {
 }
 
 .text-center span {
-    font-size: 18px
+    font-size: 18px;
+    color: #000;
 }
 
 .img-responsive {
@@ -1170,7 +1175,7 @@ ul {
 
 .contact_container {
     display: flex;
-    gap    : 250px;
+    gap    : 25px;
     width  : 100%
 }
 
