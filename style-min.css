@@ -1147,7 +1147,8 @@ p {
 q {
     font-size  : 20px;
     font-weight: 600;
-    color      : #575757
+    color      : #575757;
+    margin-bottom: 30px;
 }
 
 .seo_margin {
